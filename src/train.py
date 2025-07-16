@@ -11,7 +11,7 @@ from utils import save_metrics_and_params, save_model
 
 load_dotenv()
 
-MLFLOW_TRACKING_URI=os.getenv('MLFLOW_TRACKING_URI')
+MLFLOW_TRACKING_URI=os.getenv('https://dagshub.com/rinkusharma1466/yolov8_with_dvc.mlflow')
 
 root_dir = Path(__file__).resolve().parents[1]  # root directory absolute path
 data_dir = os.path.join(root_dir, "data/raw/wildfire-raw-yolov8")
